@@ -1,0 +1,150 @@
+== Classes:
+
+....
++--------+                    +--------+         +--------+
+| layout +------------------->+ figure +-------->+ uimenu |
++----+---+                    ++--+-+--+         +--------+
+     |                         ^  | |
+     |    +------------+       |  | |
+     |    | Constrains +-------+  | |
+     |    +-+----------+          | |     +------+       +----------+
+     |      |                     | +---->+ Axes +------>+ Plotting |
+     |      |  +-----------+      |       +----+-+       +----------+
+     |      +->+ uicontrol +<-----+            ^
+     |         +---+-----+-+                   |
+     |             |     |                     |
+     |             |     +---------------------+
+     |             |
+     |             v
+     |       +-----+-+
+     +------>+ frame |                          made by
+             +-------+                        asciiflow.com
+....
+
+=== figure
+
+==== Methods:
+
+===== Constructor:
+
+[source,scilab]
+----
+f = figure(<num>, "PropertyName_1", PropertyValue_1, ... , "PropertyName_N", PropertyValue_N);
+----
+
+`createWindow()`
+
+`close()`
+
+`gcf()`
+
+`gdf`
+
+`scf`
+
+==== Properties:
+
+https://help.scilab.org/doc/5.5.2/en_US/figure_properties.html
+
+=== uicontrol
+
+==== Constructor:
+
+[source,scilab]
+----
+h = uicontrol(parent, PropertyName, PropertyValue, ...);
+----
+
+https://help.scilab.org/docs/5.3.2/en_US/uicontrol.html
+
+== Properties:
+
+https://help.scilab.org/doc/5.5.2/en_US/uicontrol_properties.html
+
+=== Styles:
+
+* *Edit*
+* *Frame*
+* *Image*
+* *Layer*
+* *Listbox*
+* *Popupmenu*
+* *Pushbutton*
+* *Radiobutton*
+* *Slider*
+* *Spinner*
+* *Tab*
+* *Table*
+* *Text*
+* *Checkbox*
+
+[cols="^,^,^,^,^,^,^,^,^,^,^,^,^,^,^", options="header"]
+|===
+| |checkbox |edit |frame |image |layer |listbox |popupmenue |pushbutton |radiobutton |slider |spinner |tab |table |text
+| |         |     |      |✓     |✗     |        |           |           |            |       |        |    |      |
+
+| | | | | | | | | | | | | | |
+|===
+
+== Axes
+
+=== Methods:
+
+==== Constructor:
+
+[source,scilab]
+----
+a = newaxes(h);
+----
+
+`gda`
+
+`gca`
+
+=== Properties:
+
+https://help.scilab.org/doc/5.5.2/en_US/axes_properties.html
+
+== Constraints
+
+tlist
+
+=== Constructor:
+
+[source,scilab]
+----
+c = createConstraints(constraintsType, varargin);
+----
+
+
+== Layout
+
+tlist
+
+=== Constructor:
+
+[source,scilab]
+----
+lay_opt = createLayoutOptions("border", padding);
+----
+
+== Border
+
+tlist
+
+=== Constructor:
+
+[source,scilab]
+----
+border = createBorder(borderType, varargin);
+----
+
+== Functions:
+
+`findobj`
+
+`set`
+
+https://help.scilab.org/doc/5.5.2/en_US/console_properties.html
+
+`get`

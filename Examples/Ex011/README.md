@@ -1,0 +1,1 @@
+https://help.scilab.org/doc/6.0.0/en_US/grid_constraints_properties.html
