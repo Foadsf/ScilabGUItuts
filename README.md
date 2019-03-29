@@ -16,7 +16,7 @@ demo_gui()
 
 &nbsp;
 
-> <center><img src="pics\pic001_demo.gif" alt="final" width="800" style="width:800px;"/></center>
+> <center><img src="pics\pic001_demo.gif" alt="final" align="middle" width="800" style="width:800px;"/></center>
 
 &nbsp;
 
@@ -25,6 +25,6 @@ demo_gui()
 &nbsp;
 
 <center>
-<img src="pics\GPLv3_Logo.png" alt="GPLv3" width="120" style="width:120px;"/>
-<img src="pics\Cc-by-nc-sa_icon.png" alt="GPLv3" width="130" style="width:130px;"/>
+<img src="pics\GPLv3_Logo.png" alt="GPLv3" width="120" align="middle" style="width:120px;"/>
+<img src="pics\Cc-by-nc-sa_icon.png" alt="GPLv3" width="130" align="middle" style="width:130px;"/>
 </center>

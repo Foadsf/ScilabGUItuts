@@ -1,9 +1,12 @@
 This first example is copied from [the scilab.org](https://help.scilab.org/docs/6.0.0/en_US/uicontrol.html) website and by the end you will learn to create a `figure` and add a `textlist` and put some selectable `string`s in it. Pretty much this:
 
+&nbsp;
+
 <center>
-<img src="Ex001_pic001.png" align="middle" alt="final" width="600" style="width:600px;"/>
+<img src="Ex001_pic001.png" align="middle" alt="final" align="middle" width="600" style="width:600px;"/>
 </center>
 
+&nbsp;
 
 The first thing to learn is the [initialization routine](https://help.scilab.org/doc/5.5.2/en_US/figure.html) `figure()` for figure class. The constructor creates an empty window. It can be used with no parameters at all, which creates a square window with grayish background (~`[0.94 0.94 0.94]`) and default dimensions (~`[200, 200, 610, 460]`), and assign the first unoccupied (if that is a word?) integer as the ID. For example if there have been no other mention of the routine it will assign an ID of `1`. However for more control one can assign the ID manually by specifying an integer `figure(<num>)`:
 
@@ -32,11 +35,13 @@ h = figure('position', [50 50 400 400], 'backgroundcolor', [0.7 0.9 1], ..
 
 will give you:
 
+&nbsp;
+
 <center>
-<img src="Ex001_pic002.png" alt="final" width="400" style="width:400px;"/>
+<img src="Ex001_pic002.png" alt="final" width="400" align="middle" style="width:400px;"/>
 </center>
 
-
+&nbsp;
 
 
 The created figure object (`f` in the example above) also has a whole lots of [attributes](https://help.scilab.org/doc/6.0.0/en_US/figure_properties.html) which can be accessed as
@@ -61,11 +66,13 @@ Now running the command:
 h = uicontrol(f, 'style', 'listbox', 'position', [30 10 100 200]);
 ```
 
+&nbsp;
 
 <center>
-<img src="Ex001_pic003.png" alt="final" width="600" style="width:600px;"/>
+<img src="Ex001_pic003.png" alt="final" align="middle" width="600" style="width:600px;"/>
 </center>
 
+&nbsp;
 
 now we can populate the `Listbox` with some `string`s:
 
