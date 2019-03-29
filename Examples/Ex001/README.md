@@ -38,7 +38,7 @@ will give you:
 &nbsp;
 
 <center>
-<img src="Ex001_pic002.png" alt="final" width="400" align="middle" style="width:400px;"/>
+<img src="Ex001_pic002.PNG" alt="final" width="400" align="middle" style="width:400px;"/>
 </center>
 
 &nbsp;
@@ -69,7 +69,7 @@ h = uicontrol(f, 'style', 'listbox', 'position', [30 10 100 200]);
 &nbsp;
 
 <center>
-<img src="Ex001_pic003.png" alt="final" align="middle" width="600" style="width:600px;"/>
+<img src="Ex001_pic003.PNG" alt="final" align="middle" width="600" style="width:600px;"/>
 </center>
 
 &nbsp;
