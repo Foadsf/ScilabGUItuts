@@ -2,7 +2,7 @@ This example is copied from [scilab.org](https://help.scilab.org/docs/6.0.0/en_U
 
 
 
-<img src="Ex004_pic01.png" alt="final" style="width:600px;"/>
+<img src="Ex004_pic01.png" alt="final" width="600" style="width:600px;"/>
 
 
-This example is not applicable in ScicosLab due to the lack of table style for uicontrol. 
+This example is not applicable in ScicosLab due to the lack of table style for uicontrol.

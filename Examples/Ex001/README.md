@@ -1,7 +1,7 @@
 This first example is copied from [the scilab.org](https://help.scilab.org/docs/6.0.0/en_US/uicontrol.html) website and by the end you will learn to create a `figure` and add a `textlist` and put some selectable `string`s in it. Pretty much this:
 
 <center>
-<img src="Ex001_pic001.png" align="middle" alt="final" style="width:600px;"/>
+<img src="Ex001_pic001.png" align="middle" alt="final" width="600" style="width:600px;"/>
 </center>
 
 
@@ -33,7 +33,7 @@ h = figure('position', [50 50 400 400], 'backgroundcolor', [0.7 0.9 1], ..
 will give you:
 
 <center>
-<img src="Ex001_pic002.png" alt="final" style="width:400px;"/>
+<img src="Ex001_pic002.png" alt="final" width="400" style="width:400px;"/>
 </center>
 
 
@@ -63,7 +63,7 @@ h = uicontrol(f, 'style', 'listbox', 'position', [30 10 100 200]);
 
 
 <center>
-<img src="Ex001_pic003.png" alt="final" style="width:600px;"/>
+<img src="Ex001_pic003.png" alt="final" width="600" style="width:600px;"/>
 </center>
 
 

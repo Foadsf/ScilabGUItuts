@@ -1,6 +1,6 @@
-This example has been copied from [scilab.org](https://help.scilab.org/docs/6.0.0/ru_RU/uicontrol_properties.html). 
+This example has been copied from [scilab.org](https://help.scilab.org/docs/6.0.0/ru_RU/uicontrol_properties.html).
 
-<img src="Ex008_pic001.gif" alt="final" style="width:400px;"/>
+<img src="Ex008_pic001.gif" alt="final" width="400" style="width:400px;"/>
 
 In this example you will learn to have interupting `callback` functions, as well as `createConstraints`. The `Callback_Type` property accepts values of
 
@@ -18,4 +18,3 @@ I don't know what this means and couldn't find any documentations explaining det
 
 
 It worth noting that `10` and `12` are interrupting forms of `0` and `2`, and `0` and `10` also do the job of `2` and `12` but not vise versa.
-
