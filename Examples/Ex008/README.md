@@ -1,8 +1,16 @@
-This example has been copied from [scilab.org](https://help.scilab.org/docs/6.0.0/ru_RU/uicontrol_properties.html).
+This example has been copied from [scilab.org](https://help.scilab.org/docs/6.0.0/ru_RU/uicontrol_properties.html). In this example you will learn to have `uiobject`s with interrupting `callback` functions, as well as `createConstraints`. The final result is a panel with three pushbuttons which start, stop and restart a counter:
 
-<img src="Ex008_pic001.gif" alt="final" width="400" style="width:400px;"/>
+&nbsp;
 
-In this example you will learn to have interupting `callback` functions, as well as `createConstraints`. The `Callback_Type` property accepts values of
+<p align="center">
+<img src="Ex008_pic001.gif" alt="final" width="400"/>
+</p>
+
+&nbsp;
+
+
+
+Any `uicontrol` object has a `Callback_Type` attribute or `callback_type` property, which specifies how the `callback` behaves. The attribute accepts the values of:
 
  * `-1` implying that no call back instructions or function will be triggered.
  * `0` the default value meaning a Scilab instruction in the form of a string will be run.

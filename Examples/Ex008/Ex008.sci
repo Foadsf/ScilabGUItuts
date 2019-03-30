@@ -3,9 +3,15 @@ function counter_start()
     set("Start", "callback_type", -1);
     global Stop
     Stop = %f;
+    global Reset;
     while ~Stop
         i = evstr(get("count", "string"));
-        set("count", "string", string(i+1));
+        if Reset then
+            set("count", "string", "0");
+            Reset = %f;
+        else
+            set("count", "string", string(i+1));
+        end
     end
 endfunction
 
@@ -18,8 +24,8 @@ endfunction
 
 function counter_reinit()
     // Callback called after a click on reset pushbutton
-    global Stop
-    Stop = %t;
+    global Reset;
+    Reset = %t;
     set("count", "string", "0");
 endfunction
 
