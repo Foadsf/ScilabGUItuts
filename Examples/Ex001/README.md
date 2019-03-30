@@ -2,13 +2,15 @@ This first example is copied from [the scilab.org](https://help.scilab.org/docs/
 
 &nbsp;
 
+<p align="center">
 <center>
 <img src="Ex001_pic001.png" align="middle" alt="final" align="middle" width="600" style="width:600px;"/>
 </center>
+</p>
 
 &nbsp;
 
-The first thing to learn is the [initialization routine](https://help.scilab.org/doc/5.5.2/en_US/figure.html) `figure()` for figure class. The constructor creates an empty window. It can be used with no parameters at all, which creates a square window with grayish background (~`[0.94 0.94 0.94]`) and default dimensions (~`[200, 200, 610, 460]`), and assign the first unoccupied (if that is a word?) integer as the ID. For example if there have been no other mention of the routine it will assign an ID of `1`. However for more control one can assign the ID manually by specifying an integer `figure(<num>)`:
+The first thing to learn is the [initialization routine](https://help.scilab.org/doc/5.5.2/en_US/figure.html) `figure()` for figure class. The constructor creates an empty window. It can be used with no parameters at all, which creates a square window with grayish background (`[0.94 0.94 0.94]`) and default dimensions (`[200, 200, 610, 460]`), and assign the first unoccupied (if that is a word?) integer as the ID. For example if there have been no other mention of the routine it will assign an ID of `1`. However for more control one can assign the ID manually by specifying an integer `figure(<num>)`:
 
 ```scilab
 f = figure(3);

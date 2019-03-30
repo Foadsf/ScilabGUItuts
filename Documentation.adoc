@@ -105,6 +105,23 @@ a = newaxes(h);
 
 https://help.scilab.org/doc/5.5.2/en_US/axes_properties.html
 
+== uimenu
+
+addmenu, delmenu, setmenu, or unsetmenu
+
+
+ * x_message --> to open a popupmessage window
+ * x_choose --> to perform a selection in a predefined list
+ * x_dialog --> opens a dialog to get a response from the user as a Scilab string
+ * x_choices --> to select a set of items each one being chosen through a togglelist
+ * x_mdialog --> for a set ofx_dialog-like interactions or for acquiring amatrix
+ * xgetfile --> a dialog used to get a file path
+
+
+ * xclick
+ * xgetmouse
+ * seteventhandler
+
 == Constraints
 
 tlist

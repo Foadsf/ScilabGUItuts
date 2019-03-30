@@ -1,13 +1,16 @@
-function tt=sci2tcl(ttx) 
-    for t=['\',''"','[',']','{','}'] 
-        ttx=strsubst(ttx,t,'\'+t) 
-    end 
-    if size(ttx,'*')<2 then tt=ttx,return,end 
-    tt=ttx(1) 
-    ttx=ttx(2:$)'; 
-    for t=ttx 
-        tt=tt+'\n '+t 
-    end 
+function tt=sci2tcl(ttx)
+   // from here--> http://cgit.scilab.org/scilab/diff/scilab/macros/scicos_new/sci2tcl.sci?h=5.1&id=4.0
+   // /usr/lib64/scilab-4.1.2/macros/scicos/sci2tcl.sci
+   // /usr/lib/scilab-3.0/macros/scicos/sci2tcl.sci
+    for t=['\',''"','[',']','{','}']
+        ttx=strsubst(ttx,t,'\'+t)
+    end
+    if size(ttx,'*')<2 then tt=ttx,return,end
+    tt=ttx(1)
+    ttx=ttx(2:$)';
+    for t=ttx
+        tt=tt+'\n '+t
+    end
 endfunction
 
 
