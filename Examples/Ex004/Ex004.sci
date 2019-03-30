@@ -12,8 +12,9 @@ f = gcf();
 clf
 // as = f.axes_size;  // [width height]
 as = get(f, "axes_size");
-ut = uicontrol(f, "style", "table")//,..
+ut = uicontrol(f, "style", "table",..
                "string", table,..
-               "position", [5 as(2)-100 300 87],.. // => @top left corner of figure
+               "position", [5 (as(2) - 100) 300 87],.. // => @top left corner of figure
                "tooltipstring", "Data from majors towns");
+
 
