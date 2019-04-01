@@ -31,7 +31,7 @@ It worth noting that `10` and `12` are interrupting forms of `0` and `2`, and `0
 &nbsp;
 
 <p align="center">
-<img src="Ex008_pic002.svg" alt="final" width="700"/>
+<img src="Ex008_pic002.png" alt="final" width="700"/>
 </p>
 
 &nbsp;
