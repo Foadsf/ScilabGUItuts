@@ -26,3 +26,12 @@ I don't know what this means and couldn't find any documentations explaining det
 
 
 It worth noting that `10` and `12` are interrupting forms of `0` and `2`, and `0` and `10` also do the job of `2` and `12` but not vise versa.
+
+
+&nbsp;
+
+<p align="center">
+<img src="Ex008_pic002.svg" alt="final" width="700"/>
+</p>
+
+&nbsp;
